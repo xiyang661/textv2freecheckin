@@ -81,5 +81,6 @@ if __name__ == "__main__":
     except Exception as e:
         print("${args.username}签到失败")
         print(e)
-    send(info=msg,mail=[args.semail,args.secode],receivers=args.remail)
+        #print(msg)
+    #send(info=msg,mail=[args.semail,args.secode],receivers=args.remail)
 
